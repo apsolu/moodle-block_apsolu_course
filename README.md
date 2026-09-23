@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/apsolu/block_apsolu_course/actions/workflows/moodle-ci.yml/badge.svg?branch=main)](https://github.com/apsolu/block_apsolu_course/actions)
 [![Coverage Status](https://coveralls.io/repos/github/apsolu/block_apsolu_course/badge.svg?branch=main)](https://coveralls.io/github/apsolu/block_apsolu_course?branch=main)
-[![Moodle Status](https://img.shields.io/badge/moodle-5.0-blue)](https://moodle.org)
+[![Moodle Status](https://img.shields.io/badge/moodle-5.2-blue)](https://moodle.org)
 
 ## Description
 
@@ -17,7 +17,7 @@ Ce bloc donne également à un enseignant des raccourcis pour accéder aux pages
 
 ```bash
 cd /your/moodle/path
-git clone https://github.com/apsolu/block_apsolu_course blocks/apsolu_course
+git clone https://github.com/apsolu/moodle-block_apsolu_course blocks/apsolu_course
 php admin/cli/upgrade.php
 ```
 
